@@ -37,6 +37,61 @@
                     "type": "null"
                 }
             ]
+        },
+	"started_at": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+	"finished_at": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+	"committed_at": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+	"duration": {
+            "anyOf": [
+                {
+                    "type": "number",
+                    "format": "float"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "queued_duration": {
+            "anyOf": [
+                {
+                    "type": "number",
+                    "format": "float"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         }
     }
 }
