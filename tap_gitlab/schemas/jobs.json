@@ -110,6 +110,17 @@
                 }
             ]
         },
+        "queued_duration": {
+            "anyOf": [
+                {
+                    "type": "number",
+                    "format": "float"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
         "artifacts_expire_at": {
             "anyOf": [
                 {
